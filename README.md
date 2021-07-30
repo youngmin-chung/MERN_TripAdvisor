@@ -1,5 +1,5 @@
 ### MERN_Trip-Advisor
-* School Project usign MERN stack 
+* School Project using MERN stack 
 
 ### How to use
 In Terminal or git bash 
