@@ -2,6 +2,7 @@
 
 "Please check your destination before leaving..."
 
+[Link](https://mern-trip-advisor.herokuapp.com/)
 
 ## Getting Started
 
