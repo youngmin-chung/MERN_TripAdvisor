@@ -35,5 +35,7 @@ app.use(
     graphiql: true,
   })
 )
-app.listen(port || 5001, function () {console.log(`Listening on localhost:${port}`))
+app.listen(port || 5001, function () {
+  console.log(`Listening on localhost:${port}`)
+})
 //console.log(  `Server ready at localhost:${port}${graphql} - ${process.env.NODE_ENV}`)
