@@ -6,7 +6,7 @@
 
 - In Terminal or git bash `git clone https://github.com/youngmin-chung/MERN_TripAdvisor.git`
 - ../MERN_TripAdvisor> `npm install`
-- ../MERN_TripAdvisor> `node --no-warnings server`
+- ../MERN_TripAdvisor> `npm start`
 - Open any brower and enter `localhost:5000`
 
 ### Prerequisites
