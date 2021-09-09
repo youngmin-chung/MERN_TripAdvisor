@@ -1,6 +1,6 @@
 # Trip Advisor - MERN Project
 
-"Please check your destination before leaving..." [Heroku Link](https://mern-trip-advisor.herokuapp.com/?target=_blank)
+"Please check your destination before leaving..."
 
 ## Getting Started
 
@@ -14,16 +14,9 @@
 What you need to install:
 
 __Front-end:__
-- @material-ui/core,
-- @material-ui/icons,
-- @material-ui/lab,
-- @testing-library/jest-dom,
-- @testing-library/react,
-- @testing-library/user-event,
-- react,
-- react-dom,
-- react-router-dom,
-- react-scripts
+- @material-ui/core, @material-ui/icons, @material-ui/lab,
+- @testing-library/jest-dom, @testing-library/react, @testing-library/user-event,
+- react, react-dom, react-router-dom, react-scripts
 
 __Back-end:__
 - body-parser,
@@ -47,7 +40,7 @@ No tests added to this project
 
 ## Deployment
 
-To Be Deployed on heroku
+Deployed on [Heroku](https://mern-trip-advisor.herokuapp.com/?target=_blank)
 
 ## Versioning
 
@@ -56,8 +49,6 @@ MERN Trip Advisor version 0.0.1
 ## Authors
 
 * Youngmin Chung: React | Express | JavaScript | Node | MongoDB
-
-
 
 ## License
 
@@ -68,8 +59,6 @@ This project is licensed under the YC License
 * Learning all libraries that were used to create this project
 * Professors in Fanshawe College, family, and friends for their sincere support 
 * All people who posted neccessary inforamtion about this application on StackOverFlow and their support and suggestions
-
-
 
 ## App Flow
 
