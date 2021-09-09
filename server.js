@@ -32,6 +32,6 @@ app.use(
     graphiql: true,
   })
 )
-app.listen(port || 5001, function () {
+app.listen(port, function () {
   console.log(`Listening on localhost:${port}`)
 })
