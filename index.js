@@ -34,6 +34,4 @@ app.use(
   })
 )
 app.listen(port || 5001)
-console.log(
-  `Server ready at localhost:${port}${graphql} - ${process.env.NODE_ENV}`
-)
+//console.log(  `Server ready at localhost:${port}${graphql} - ${process.env.NODE_ENV}`)

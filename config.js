@@ -1,5 +1,5 @@
-const dotenv = require("dotenv");
-dotenv.config();
+const dotenv = require('dotenv')
+dotenv.config()
 module.exports = {
   isocountries: process.env.ISOCOUNTRIES,
   gocalerts: process.env.GOCALERTS,
@@ -10,5 +10,5 @@ module.exports = {
   port: process.env.PORT,
   graphql: process.env.GRAPHQLURL,
   coll: process.env.COLLECTION,
-  advcoll: process.env.ADVCOLL
-};
+  advcoll: process.env.ADVCOLL,
+}

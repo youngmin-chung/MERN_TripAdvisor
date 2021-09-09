@@ -11,18 +11,18 @@ const { atlas, appdb } = require("./config");
 let db;
 const loadDB = async () => {
   if (db) {
-    console.log("using established connection");
+    //console.log("using established connection");
     return db;
   }
   try {
-    console.log("establishing new connection to Atlas");
+    //console.log("establishing new connection to Atlas");
     const client = await MongoClient.connect(atlas, {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
     db = client.db(appdb);
   } catch (err) {
-    console.log(err);
+    //console.log(err);
   }
   return db;
 };

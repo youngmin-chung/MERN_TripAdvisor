@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
     let result = await setupRtns.run();
     res.status(200).send(result);
   } catch (err) {
-    console.log(err.stack);
+    //console.log(err.stack);
     res.status(500).send("get all users failed - internal server error");
   }
 });
@@ -52,7 +52,7 @@ router.post("/", async (req, res) => {
         : { msg: "user was not added" }
     );
   } catch (err) {
-    console.log(err.stack);
+    //console.log(err.stack);
     res.status(500).send("post failed - internal server error");
   }
 });

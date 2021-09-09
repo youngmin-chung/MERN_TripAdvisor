@@ -16,17 +16,17 @@ const run = async () => {
 
     let results = await dbRtns.deleteAll(db, alertcollection);
     let msg1 = `Deleted ${results.deletedCount} documents from ${alertcollection} collection.`;
-    console.log(msg1);
+    //console.log(msg1);
     msgResult += msg1;
 
     let alertsJSON = await util.getJSONFromWWWPromise(alerturl);
     let msg2 = `Retrieved Alert JSON from remote web site.`;
-    console.log(msg2);
+    //console.log(msg2);
     msgResult += msg2;
 
     let countryJson = await util.getJSONFromWWWPromise(isocountries);
     let msg3 = `Retrieved Country JSON from remote web site.`;
-    console.log(msg3);
+    //console.log(msg3);
     msgResult += msg3;
 
     await Promise.allSettled(
@@ -60,12 +60,12 @@ const run = async () => {
 
     let allCountriesFromDb = await dbRtns.findAll(db, alertcollection, {}, {});
     let msg4 = `Added approximately ${allCountriesFromDb.length} new documents to the ${alertcollection} collection.`;
-    console.log(msg4);
+    //console.log(msg4);
     msgResult += msg4;
 
     return msgResult;
   } catch (err) {
-    console.log(err);
+    //console.log(err);
   } finally {
     //process.exit();
   }
