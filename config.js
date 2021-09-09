@@ -11,4 +11,5 @@ module.exports = {
   graphql: process.env.GRAPHQLURL,
   coll: process.env.COLLECTION,
   advcoll: process.env.ADVCOLL,
+  server: process.env.SERVER,
 }

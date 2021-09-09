@@ -6,9 +6,9 @@
   "engines": {
     "node": "14.15.3"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+  "scripts": {"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Youngmin Chung",
   "license": "ISC",

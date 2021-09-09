@@ -14,6 +14,8 @@ const graphqlHTTP = require('express-graphql')
 const { resolvers } = require('./resolvers')
 const { schema } = require('./schema')
 
+app.set(port || 3000)
+app.set(server || 'localhost')
 // parse application/json
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
@@ -33,5 +35,14 @@ app.use(
     graphiql: true,
   })
 )
-app.listen(port || 5001)
+// app.listen(port || 5001)
+
+app.listen(app.get(port), function () {
+  console.log(
+    '%s server listening at http://%s:%s',
+    process.env.NODE_ENV,
+    app.get(server),
+    app.get(port)
+  )
+})
 //console.log(  `Server ready at localhost:${port}${graphql} - ${process.env.NODE_ENV}`)
