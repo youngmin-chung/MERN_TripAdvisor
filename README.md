@@ -1,8 +1,6 @@
 # Trip Advisor - MERN Project
 
-"Please check your destination before leaving..."
-
-[Link](https://mern-trip-advisor.herokuapp.com/)
+"Please check your destination before leaving..." [Link](https://mern-trip-advisor.herokuapp.com/?target=_blank)
 
 ## Getting Started
 
