@@ -5,12 +5,12 @@
   "engines": {
     "node": "14.15.3"
   },
+  "proxy": "http://localhost:5000/graphql",
   "scripts": {
     "start": "node server",
     "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "proxy": "http://localhost:5000",
   "author": "Youngmin Chung",
   "license": "ISC",
   "dependencies": {
