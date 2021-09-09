@@ -6,7 +6,7 @@
     "node": "14.15.3"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Youngmin Chung",
