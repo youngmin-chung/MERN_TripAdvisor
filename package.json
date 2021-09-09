@@ -2,13 +2,16 @@
   "name": "travel_advisor_app",
   "version": "1.0.0",
   "description": "front end side for travel advisor app",
-  "main": "app.js",
   "engines": {
     "node": "14.15.3"
   },
-  "scripts": {"start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Youngmin Chung",
   "license": "ISC",
@@ -23,6 +26,7 @@
     "moment-timezone": "^0.5.31",
     "mongodb": "^3.6.0",
     "request": "^2.88.2",
+    "serve": "^12.0.0",
     "socket.io": "^2.3.0",
     "yargs": "^15.4.1"
   }
