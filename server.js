@@ -4,7 +4,7 @@
  * Description: It's for server.js
  */
 
-const { port = process.env.PORT || 9000, graphql, server } = require('./config')
+const { port, graphql, server } = require('./config')
 const express = require('express')
 const bodyParser = require('body-parser')
 const myroutes = require('./project1routes')
@@ -35,5 +35,5 @@ app.use(
     graphiql: true,
   })
 )
-app.listen(port, () => console.log(`Listening on localhost:${port}`))
+app.listen(port || 5001, function () {console.log(`Listening on localhost:${port}`))
 //console.log(  `Server ready at localhost:${port}${graphql} - ${process.env.NODE_ENV}`)
