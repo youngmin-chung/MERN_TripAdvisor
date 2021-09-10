@@ -14,29 +14,17 @@
 What you need to install:
 
 __Front-end:__
+- react, react-dom, react-router-dom, react-scripts
 - @material-ui/core, @material-ui/icons, @material-ui/lab,
 - @testing-library/jest-dom, @testing-library/react, @testing-library/user-event,
-- react, react-dom, react-router-dom, react-scripts
 
 __Back-end:__
-- body-parser,
-- cors,
-- dotenv,
-- express,
-- express-graphql,
-- graphql,
-- moment,
-- moment-timezone,
-- mongodb,
-- request
+-  mongodb, express, node.js, body-parser, cors, dotenv, express-graphql,
+- graphql, moment, moment-timezone, request
 
 ### Installing
 
 Clone project and make sure to install all dependencies.
-
-## Running the tests
-
-No tests added to this project
 
 ## Deployment
 
