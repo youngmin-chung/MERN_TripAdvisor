@@ -32,7 +32,11 @@ Deployed on [Heroku](https://mern-trip-advisor.herokuapp.com/?target=_blank)
 
 ## Versioning
 
-MERN Trip Advisor version 0.0.1
+MERN Trip Advisor 
+
+\\ version 0.0.1: completed to work on backend functions
+
+\\ version 0.0.2: developing now - Design and layout will be improved
 
 ## Authors
 
