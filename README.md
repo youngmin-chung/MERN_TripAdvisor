@@ -28,7 +28,7 @@ Clone project and make sure to install all dependencies.
 
 ## Deployment
 
-Deployed on Heroku - [Link](https://mern-trip-advisor.herokuapp.com/?target=_blank)
+Deployed on Heroku soon
 
 ## Versioning
 
